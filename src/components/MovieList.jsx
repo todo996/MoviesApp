@@ -1,7 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import PropTypes from 'prop-types'
-import CarouselModule from 'react-multi-carousel'
-const Carousel = CarouselModule.default
+import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { MovieContext } from '../context/MovieProvide'
 
